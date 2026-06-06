@@ -34,7 +34,7 @@ const accessories = [
 
 export const AccessoriesSection: React.FC = () => {
   return (
-    <section id="accesorios" className="relative bg-[url('/images/hero-bg.png')] bg-fixed bg-cover bg-center bg-no-repeat py-20 sm:py-24">
+    <section id="accesorios" className="relative bg-[url('/Altior/images/hero-bg.png')] bg-fixed bg-cover bg-center bg-no-repeat py-20 sm:py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-12 flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
           <div className="max-w-2xl">

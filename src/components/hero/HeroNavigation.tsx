@@ -20,10 +20,10 @@ export const HeroNavigation: React.FC = () => {
   const [menuOpen, setMenuOpen] = useState(false)
 
   return (
-    <header className="fixed inset-x-0 top-0 z-50 border-b border-beige-200 bg-[url('/images/hero-bg.png')] bg-fixed bg-no-repeat bg-cover bg-center backdrop-blur-sm">
+    <header className="fixed inset-x-0 top-0 z-50 border-b border-beige-200 bg-[url('/Altior/images/hero-bg.png')] bg-fixed bg-no-repeat bg-cover bg-center backdrop-blur-sm">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
         <a href="#inicio" className="inline-flex h-full items-center justify-center" aria-label="ALTIOR">
-          <img src="/images/altiorfondo.png" alt="ALTIOR" className="h-12 w-12 object-contain sm:h-14 sm:w-14" />
+          <img src="/Altior/images/altiorfondo.png" alt="ALTIOR" className="h-12 w-12 object-contain sm:h-14 sm:w-14" />
         </a>
 
         <nav className="hidden h-full items-center gap-8 md:flex">
@@ -74,7 +74,7 @@ export const HeroNavigation: React.FC = () => {
       </div>
 
       {menuOpen ? (
-        <div className="border-t border-beige-200 bg-[url('/images/hero-bg.png')] bg-fixed bg-no-repeat bg-cover bg-center px-4 py-5 md:hidden">
+        <div className="border-t border-beige-200 bg-[url('/Altior/images/hero-bg.png')] bg-fixed bg-no-repeat bg-cover bg-center px-4 py-5 md:hidden">
           <div className="space-y-4">
             {navLinks.map((link) => (
               <a

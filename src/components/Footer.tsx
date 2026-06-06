@@ -22,7 +22,7 @@ export const Footer: React.FC = () => {
         <div className="flex flex-col gap-10 lg:flex-row lg:items-start lg:justify-between">
           <div className="max-w-sm">
             <img
-              src="/images/altior-logo-white-cropped.png"
+              src="/Altior/images/altior-logo-white-cropped.png"
               alt="ALTIOR logo"
               className="h-12 w-auto object-contain"
             />

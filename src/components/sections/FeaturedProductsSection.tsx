@@ -27,7 +27,7 @@ const featured = [
 
 export const FeaturedProductsSection: React.FC = () => {
   return (
-    <section id="destacados" className="relative bg-[url('/images/hero-bg.png')] bg-fixed bg-cover bg-center bg-no-repeat py-20 sm:py-24">
+    <section id="destacados" className="relative bg-[url('/Altior/images/hero-bg.png')] bg-fixed bg-cover bg-center bg-no-repeat py-20 sm:py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-10 text-center">
           <span className="text-xs uppercase tracking-[0.35em] text-black">Productos destacados</span>

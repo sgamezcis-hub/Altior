@@ -34,7 +34,7 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body
-        className={`${montserrat.className} bg-[url('/images/hero-bg.png')] bg-fixed bg-no-repeat bg-cover bg-center bg-warm-white text-black`}
+        className={`${montserrat.className} bg-[url('/Altior/images/hero-bg.png')] bg-fixed bg-no-repeat bg-cover bg-center bg-warm-white text-black`}
       >
         <main>{children}</main>
       </body>
